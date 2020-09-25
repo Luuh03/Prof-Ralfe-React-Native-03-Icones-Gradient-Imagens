@@ -29,7 +29,9 @@ function Login({ navigation }) {
             <ImageBackground source={require('../../../assets/imagens/matrix.jpg')} style={estiloLogin.fundo}>
 
                 <View style={estiloLogin.logoContainer} >
-                    <AntDesign name="rest" size={50} color="white" />
+                    <LinearGradient colors={['#4c669f', '#192f6a', '#081a31']} style={estiloLogin.logo}>
+                        <AntDesign name="rest" size={40} color="white" />
+                    </LinearGradient>
                 </View>
 
                 <View style={estiloLogin.campoContainer}>

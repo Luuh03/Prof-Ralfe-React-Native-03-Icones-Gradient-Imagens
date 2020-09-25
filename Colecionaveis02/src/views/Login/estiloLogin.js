@@ -9,15 +9,17 @@ const estiloLogin = StyleSheet.create({
        width: '100%',
        height: '100%'
    },
-   borda: {   
-      justifyContent: 'center',
-      backgroundColor: '#081a31',  
-      width: '100%',
-      height: '100%',
-   },
    logoContainer:{
         alignItems: 'center',
-        marginBottom: 30,
+        marginBottom: 20,
+   },
+   logo: {
+        width: 90,
+        height: 90,
+        borderRadius: 50, 
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 20,
    },
    texto: {
       fontSize: 20,
